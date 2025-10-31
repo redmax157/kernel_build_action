@@ -15,7 +15,7 @@ jobs:
       - name: Build Kernel
         uses: redmax157/kernel_build_action@main
         with:
-          kernel-url: https://github.com/redmax157/guamp.git
+          kernel-url: https://github.com/redmax157/android_kernel_motorola_guamp.git
           kernel-dir: msm-4.19
           kernel-branch: main
           config: guamp_defconfig
