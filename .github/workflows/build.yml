@@ -17,7 +17,7 @@ jobs:
         with:
           kernel-url: https://github.com/redmax157/android_kernel_motorola_guamp.git
           kernel-dir: msm-4.19
-          kernel-branch: main
+          kernel-branch: guamp
           config: guamp_defconfig
           arch: arm64
           aosp-gcc: true
